@@ -1,0 +1,249 @@
+@import "variables";
+/* .arriba2 {
+    margin-bottom: -200px;
+} */
+.open2 {
+  font-family: $open;
+  font-weight: 600;
+  font-size: 25px;
+}
+.f img {
+  width: 400px;
+  box-shadow: 10px 5px 10px 1px rgba(0, 0, 0, 0.2);
+  filter: brightness(80%);
+  transition: all 500ms ease-in-out;
+}
+.f img:hover {
+  filter: brightness(100%);
+  transition: all 500ms ease-in-out;
+}
+/* .op {
+  width: 400px;
+  margin-left: 70px;
+} */
+.op p {
+  width: 100%;
+  font-family: $open;
+  font-weight: 400;
+  font-size: 12px;
+}
+.bg-s {
+  background-color: rgba(248, 248, 248, 1);
+}
+.p .ca {
+  font-family: $open;
+  font-weight: 600;
+  font-size: 20px;
+}
+.p ul li {
+  font-family: $open;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+/* .whatsap2 {
+  margin-left: 130px;
+} */
+.whatsap2 a {
+  display: inline-block;
+  padding: 0px 60px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 28px;
+  font-size: 25px;
+}
+.whatsap2 .titulo {
+  font-family: $open;
+  font-weight: 400;
+  color: $negro;
+  font-size: 20px;
+}
+.whatsap2 a:hover {
+  background-color: rgba(37, 211, 102, 0.9);
+}
+/* Método de pago */
+.pago {
+  font-family: $open;
+  font-weight: 600;
+  font-size: 25px;
+}
+.metodo1 {
+  font-family: $open;
+  font-weight: 400;
+  font-size: 16px;
+}
+.metodo1 ul li {
+  line-height: 50px;
+}
+.metodo1 .tarjetas .t {
+  width: 60px;
+  height: 60px;
+}
+.metodo1 .tarjetas .oxxo {
+  width: 60px;
+  height: 33px;
+}
+.metodo1 .d {
+  line-height: 35px;
+}
+.metodo2 {
+  font-family: $open;
+  font-weight: 400;
+  font-size: 16px;
+}
+.metodo2 .i {
+  width: 270px;
+}
+.metodo2 img {
+  width: 330px;
+}
+@media screen and (max-width: 992px) {
+  .metodo2 .i {
+    width: 270px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .f img {
+    width: 320px;
+  }
+  /* Método de pago */
+  .metodo2 .i {
+    width: 230px;
+  }
+  .metodo2 img {
+    width: 300px;
+  }
+  .metodo1 .d {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 575px) {
+  .arriba2 {
+    margin-top: 25px;
+  }
+  .p {
+    margin-top: 15px;
+  }
+  .f img {
+    width: 300px;
+  }
+  .open2 {
+    font-size: 20px;
+  }
+  .p .ca {
+    font-size: 20px;
+  }
+  .p ul li {
+    font-size: 14px;
+  }
+  /* Método pago*/
+  .pago {
+    font-size: 20px;
+  }
+  .metodo1 {
+    font-size: 14px;
+  }
+  .metodo2 {
+    font-size: 14px;
+  }
+  .metodo2 .i {
+    width: 200px;
+  }
+  .metodo2 img {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .arriba2 {
+    margin-top: 25px;
+  }
+  .f img {
+    width: 250px;
+    filter: brightness(100%);
+  }
+  .open2 {
+    font-size: 18px;
+  }
+  .p .ca {
+    font-size: 18px;
+  }
+  .whatsap2 {
+    /*     margin-left: 32%; */
+    .titulo {
+      font-size: 18px;
+    }
+  }
+  .whatsap2 a {
+    padding: 2px 50px;
+    font-size: 20px;
+  }
+  .op p {
+    font-size: 11px;
+  }
+  /* Método pago*/
+  .pago {
+    font-size: 18px;
+  }
+  .metodo2 .i {
+    width: 150px;
+  }
+  .metodo2 img {
+    width: 200px;
+  }
+  .metodo1 .tarjetas .t {
+    width: 40px;
+    height: 40px;
+  }
+  .metodo1 .tarjetas .oxxo {
+    width: 50px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .f img {
+    width: 200px;
+  }
+  .open2 {
+    font-size: 18px;
+  }
+  .p .ca {
+    font-size: 18px;
+  }
+  .whatsap2 {
+    /*     margin-left: 32%; */
+    .titulo {
+      font-size: 18px;
+    }
+  }
+  .whatsap2 a {
+    padding: 2px 50px;
+    font-size: 20px;
+  }
+  .op p {
+    font-size: 11px;
+  }
+  .p ul li {
+    font-size: 12px;
+  }
+  /* Método de Pago */
+  .metodo1 .tarjetas .t {
+    width: 30px;
+    height: 30px;
+  }
+  .metodo1 .tarjetas .oxxo {
+    width: 40px;
+    height: 25px;
+  }
+  .metodo2 .i {
+    width: 130px;
+  }
+  .metodo2 img {
+    width: 180px;
+  }
+  .metodo1 {
+    font-size: 12px;
+  }
+  .metodo2 {
+    font-size: 12px;
+  }
+}

@@ -1,13 +1,22 @@
 .pata {
   color: #f3eee6;
-  size: 2px;
+  font-size: 1.1875rem; /* 19px */
 }
 .logo {
   color: #f3eee6;
   font-family: "Rozha One", serif;
   font-weight: 400;
+  font-size: 1.625rem; /* 26px */
 }
 
 .bg-logo {
   background-color: rgba(55, 116, 148, 90%);
+}
+@media screen and (max-width: 400px) {
+  .pata {
+    font-size: 1rem; /* 16px */
+  }
+  .logo {
+    font-size: 1.25rem; /* 20px */
+  }
 }

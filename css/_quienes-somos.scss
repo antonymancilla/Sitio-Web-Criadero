@@ -1,0 +1,68 @@
+@import "variables";
+.titulo {
+  margin-top: -30px;
+  .quienes {
+    font-family: $open;
+    font-weight: 600;
+    color: $negro;
+    font-size: 25px; /* 25px  */
+  }
+}
+.titulo2 {
+  margin-top: 30px;
+  .quienes {
+    font-family: $open;
+    font-weight: 600;
+    color: $negro;
+    font-size: 25px; /* 25px  */
+  }
+}
+.parrafo {
+  font-family: $open;
+  font-weight: 400;
+  color: $negro;
+  line-height: 35px;
+  font-size: 16px;
+}
+.bg-gris {
+  background-color: rgba(243, 238, 230, 40%);
+}
+.arriba {
+  margin-top: -32px;
+}
+.pata i {
+  font-size: 50px;
+  color: $azul;
+}
+@media screen and (max-width: 575px) {
+  .titulo {
+    margin-top: 0px;
+    .quienes {
+      font-size: 20px;
+    }
+  }
+  .titulo2 {
+    .quienes {
+      font-size: 20px;
+    }
+  }
+  .parrafo {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .titulo {
+    margin-top: 0px;
+    .quienes {
+      font-size: 18px;
+    }
+  }
+  .titulo2 {
+    .quienes {
+      font-size: 18px;
+    }
+  }
+  .parrafo {
+    font-size: 14px;
+  }
+}

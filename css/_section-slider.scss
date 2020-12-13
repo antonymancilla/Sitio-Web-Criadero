@@ -1,0 +1,89 @@
+@import "variables";
+.fondo {
+  width: 100%;
+  height: 500px; /* 500px */
+  background-image: url("/img/Shi\ Tzu-31.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.monse {
+  font-family: $montse;
+  font-weight: 700;
+  font-size: 40px; /* 40px */
+}
+.open {
+  font-family: $open;
+  font-weight: 400;
+  font-size: 18px; /* 18px */
+}
+.textos {
+  margin-top: 160px;
+}
+.textos2 {
+  display: none;
+}
+@media screen and (max-width: 1300px) {
+  .fondo {
+    height: 350px;
+  }
+  .textos {
+    margin-top: 90px;
+  }
+  .monse {
+    font-size: 35px; /* 35px */
+  }
+  .open {
+    font-size: 16px; /* 16px */
+  }
+}
+@media screen and (max-width: 800px) {
+  .fondo {
+    height: 300px;
+  }
+  .monse {
+    font-size: 30px; /* 30px */
+  }
+  .open {
+    font-size: 15px; /* 15px */
+  }
+  .textos {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .fondo {
+    height: 210px;
+  }
+  .monse {
+    font-size: 20px; /* 20px */
+  }
+  .open {
+    font-size: 12px; /* 12px */
+  }
+  .textos {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .fondo {
+    height: 200px;
+  }
+  .textos {
+    display: none;
+  }
+  .textos2 {
+    margin-top: 40px;
+    display: contents;
+    .monse {
+      font-family: $montse;
+      font-weight: 700;
+      font-size: 18px;
+    }
+    .open {
+      font-family: $open;
+      font-weight: 400;
+      font-size: 12px;
+    }
+  }
+}

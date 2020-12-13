@@ -1,0 +1,85 @@
+@import "variables";
+.perro {
+  margin-top: 30px;
+}
+.bg-azul {
+  background-color: $azul;
+}
+.titulo {
+  font-family: $open;
+  font-weight: 600;
+  font-size: 25px;
+}
+.info {
+  font-family: $open;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.boton a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: none;
+  color: white;
+  text-decoration: none;
+  border-radius: 28px;
+  border: 2px solid white;
+  font-family: $open;
+  font-weight: 400;
+  font-size: 15px;
+}
+.boton a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.foto img {
+  width: 400px;
+  box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.2);
+  filter: brightness(80%);
+  transition: all 500ms ease-in-out;
+}
+.foto img:hover {
+  filter: brightness(100%);
+  transition: all 500ms ease-in-out;
+}
+@media screen and (max-width: 990px) {
+  .boton a {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .foto img {
+    width: 350px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .titulo {
+    font-size: 20px;
+  }
+  .info {
+    font-size: 14px;
+  }
+  .foto img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .titulo {
+    font-size: 18px;
+  }
+  .info {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .boton a {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  .foto img {
+    width: 250px;
+    filter: brightness(100%);
+  }
+}

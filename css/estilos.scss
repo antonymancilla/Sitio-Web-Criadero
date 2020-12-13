@@ -1,2 +1,15 @@
-@import "header";
 @import "variables";
+@import "header";
+@import "section-slider";
+@import "quienes-somos";
+@import "section-yorkshire";
+@import "section-galeria";
+@import "section-contacto";
+@import "footer";
+@import "btn-whatsapp";
+@import "aviso";
+@import "Yorkshire-info";
+@import "recapcha";
+body {
+  font-size: 16px;
+}

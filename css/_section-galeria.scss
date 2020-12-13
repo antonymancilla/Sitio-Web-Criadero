@@ -1,0 +1,71 @@
+@import "variables";
+/* CSS IMG */
+.bg-cremita {
+  background-color: $cremita;
+}
+.imagen .diseño {
+  box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.2);
+  filter: brightness(80%);
+  transition: all 500ms ease-in-out;
+  width: 300px;
+}
+.imagen .diseño:hover {
+  filter: brightness(100%);
+  transition: all 500ms ease-in-out;
+}
+/* CSS SLIDER */
+.ver {
+  display: none;
+}
+.titulo-galeria {
+  font-family: $open;
+  font-weight: 600;
+  color: $negro;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.slider {
+  width: 1200px;
+  height: 620px;
+}
+
+/* @media screen and (max-width: 768px) {
+  .imagen {
+    display: none;
+  }
+  .ver {
+    display: contents;
+  }
+  .slider {
+    height: 400px;
+  }
+} */
+@media screen and (max-width: 575px) {
+  .titulo-galeria {
+    font-size: 20px;
+  }
+  .slider {
+    width: 600px;
+    height: 300px;
+  }
+  .ver {
+    display: contents;
+  }
+  .imagen {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .titulo-galeria {
+    font-size: 18px;
+  }
+  .slider {
+    height: 220px;
+  }
+  .ver {
+    display: contents;
+  }
+  .imagen {
+    display: none;
+  }
+}

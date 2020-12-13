@@ -1,0 +1,109 @@
+@import "variables";
+.aviso {
+  display: inline-block;
+  width: 80%;
+  height: 50px;
+  bottom: 25px;
+  left: 10%;
+  position: fixed;
+  text-align: left;
+  z-index: 100;
+}
+.aviso .aviso2 {
+  color: #fff;
+  background-color: #00a98f;
+  font-family: $open;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.aviso .aviso2 .c {
+  font-size: 20px;
+  color: black;
+}
+
+@media screen and (max-width: 1300px) {
+  .aviso {
+    width: 80%;
+    height: 50px;
+    bottom: 25px;
+    left: 10%;
+  }
+  .aviso .aviso2 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .aviso {
+    height: 45px;
+    bottom: 25px;
+  }
+  .aviso .aviso2 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 652px) {
+  .aviso {
+    width: 75%;
+    height: 50px;
+    bottom: 25px;
+  }
+  .aviso .aviso2 {
+    font-size: 12px;
+  }
+  .aviso .aviso2 .recortado {
+    display: none;
+  }
+}
+@media screen and (max-width: 490px) {
+  .aviso .aviso2 {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .aviso .aviso2 .recortado2 {
+    display: none;
+  }
+  .aviso {
+    width: 70%;
+    height: 40px;
+    bottom: 15px;
+  }
+  .aviso .aviso2 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .aviso {
+    width: 70%;
+    height: 30px;
+    bottom: 20px;
+  }
+  .aviso .aviso2 {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 322px) {
+  .aviso {
+    width: 70%;
+    height: 25px;
+    bottom: 25px;
+  }
+  .aviso .aviso2 {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 283px) {
+  .aviso {
+    width: 70%;
+    height: 25px;
+    bottom: 25px;
+  }
+  .aviso .aviso2 {
+    font-size: 7px;
+  }
+}

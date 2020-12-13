@@ -1,0 +1,104 @@
+@import "variables";
+.bg-footer {
+  background-color: $footer;
+}
+.pata2 {
+  color: #f3eee6;
+  font-size: 22px;
+}
+.logo2 {
+  color: #f3eee6;
+  font-family: "Rozha One", serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+.cont h3 {
+  font-family: $open;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.cont .foter2 .icono {
+  color: white;
+  font-size: 14px;
+}
+.cont .foter2 .tex {
+  color: $gris;
+  font-family: $open;
+  font-weight: 400;
+  font-size: 14px;
+}
+.text-gris:hover {
+  color: $gris;
+}
+
+.linea {
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.copy {
+  font-family: $open;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 0px;
+}
+@media screen and (max-width: 994px) {
+  .cont .foter2 .icono {
+    font-size: 13px;
+  }
+  .cont .foter2 .tex {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .pata2 {
+    font-size: 18px;
+  }
+  .logo2 {
+    font-size: 25px;
+  }
+  .cont {
+    margin-top: 0px;
+  }
+  .cont h3 {
+    font-size: 18px;
+  }
+  .linea {
+    margin-top: -20px;
+  }
+  .cont .foter2 .icono {
+    font-size: 14px;
+  }
+  .cont .foter2 .tex {
+    font-size: 14px;
+  }
+  .copy {
+    margin-top: -20px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .pata2 {
+    font-size: 15px;
+  }
+  .logo2 {
+    font-size: 22px;
+  }
+  .cont {
+    margin-top: 0px;
+  }
+  .cont h3 {
+    font-size: 16px;
+  }
+  .cont .foter2 .icono {
+    font-size: 13px;
+  }
+  .cont .foter2 .tex {
+    font-size: 12px;
+  }
+  .copy {
+    font-size: 11px;
+  }
+}
