@@ -12,8 +12,6 @@
     <!-- noindex -->
     <meta name="copyright" content="Developer Antony Brayan" />
     <title>Hatchery</title>
-    <!-- Recaptcha -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DDC3LB43XL"></script>
     <script>
@@ -26,6 +24,8 @@
 
         gtag("config", "G-DDC3LB43XL");
     </script>
+    <!-- Recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link rel="shortcut icon" type="image/x-icon" href="/img/yorkshire.ico" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/estilos.css" />
@@ -45,7 +45,7 @@
     <!-- Ménu de navegación -->
     <nav class="navbar navbar-expand-md navbar-light bg-logo fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand"><i class="pata fas fa-paw"> <span class="logo">HATCHERY</span> </i>
+            <a href="#inicio" class="navbar-brand"><i class="pata fas fa-paw"> <span class="logo">HATCHERY</span> </i>
             </a>
             <!------------------------Esta parte es cuando aparece el MENU HAMBURGUESA----------------------------->
             <!--data-target="#navbar": Es nuestro ID   
@@ -58,19 +58,19 @@
                 <!-- ml-auto-> alinea a la izquierda -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white">INICIO</a>
+                        <a href="#inicio" class="nav-link text-white">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white">QUIÉNES SOMOS</a>
+                        <a href="#quienes" class="nav-link text-white">QUIÉNES SOMOS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white">YORKSHIRE</a>
+                        <a href="#yorkshire" class="nav-link text-white">YORKSHIRE</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white">SHI TZU</a>
+                        <a href="#shihtzu" class="nav-link text-white">SHIH TZU</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white">CONTACTO</a>
+                        <a href="#contacto" class="nav-link text-white">CONTACTO</a>
                     </li>
                 </ul>
                 <!------------------------------------------------------------------------------------------------------>
@@ -78,7 +78,7 @@
         </div>
     </nav>
     <!-- HEADER -->
-    <header class="jumbotron fondo">
+    <header class="jumbotron fondo" id="inicio">
         <section class="row">
             <section class="col-12">
                 <article class="container">
@@ -101,7 +101,7 @@
         </section>
     </header>
     <!-- SECTION QUIENES SOMOS -->
-    <section class="jumbotron bg-gris arriba">
+    <section class="jumbotron bg-gris arriba" id="quienes">
         <section class="container">
             <section class="row">
                 <section class="col-12">
@@ -143,7 +143,7 @@
         <i class="fab fa-whatsapp"></i>
     </a>
     <!-- SECTION YORKSHIRE -->
-    <section class="jumbotron bg-azul arriba">
+    <section class="jumbotron bg-azul arriba" id="yorkshire">
         <section class="container">
             <section class="row">
                 <section class="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -168,7 +168,7 @@
         </section>
     </section>
     <!-- SECTION GALERIA -->
-    <section class="jumbotron bg-gris arriba">
+    <section class="jumbotron bg-gris arriba" id="galeria">
         <section class="container">
             <section class="row">
                 <section class="col-12">
@@ -281,7 +281,7 @@
         </section>
     </section>
     <!-- SECTION SHIH TZU -->
-    <section class="jumbotron bg-azul arriba">
+    <section class="jumbotron bg-azul arriba" id="shihtzu">
         <section class="container">
             <section class="row">
                 <section class="col-lg-6 col-md-6 col-sm-12 col-12 order-1">
@@ -305,7 +305,7 @@
         </section>
     </section>
     <!-- SECTION CONTACTO -->
-    <section class="container mb-5 mt-5">
+    <section class="container mb-5 mt-5" id="contacto">
         <section class="row">
             <section class="col-lg-6 col-md-6 col-12 mt-5">
                 <div class="whatsap text-center">
@@ -341,7 +341,7 @@
             <!-- LOGO -->
             <section class="row mb-5">
                 <section class="col-lg-4 col-md-4 col-sm-12 col-12 mt-5 align-self-center">
-                    <a href="#"><i class="pata2 fas fa-paw">
+                    <a href="#inicio"><i class="pata2 fas fa-paw">
                             <span class="logo2">HATCHERY</span>
                         </i>
                     </a>
@@ -372,7 +372,7 @@
                                 <i class="icono fas fa-dog"></i><span class="tex ml-1">Shih Tzu</span></a>
                         </div>
                         <div class="foter2 text-left mt-1">
-                            <a href="index.php" class="text-gris"><i class="icono far fa-images"></i><span class="tex ml-1">Galería</span></a>
+                            <a href="#galeria" class="text-gris"><i class="icono far fa-images"></i><span class="tex ml-1">Galería</span></a>
                         </div>
                     </article>
                 </section>
